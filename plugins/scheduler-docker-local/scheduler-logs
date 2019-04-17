@@ -46,3 +46,5 @@ scheduler-docker-local-scheduler-logs() {
   done
   bash -c "($DOKKU_LOGS_CMD)"
 }
+
+scheduler-docker-local-scheduler-logs "$@"
